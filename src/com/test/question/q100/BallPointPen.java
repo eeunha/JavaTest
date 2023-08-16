@@ -1,0 +1,27 @@
+package com.test.question.q100;
+
+public class BallPointPen {
+
+	private double thickness;
+	private String color;
+
+	public double getThickness() {
+		return thickness;
+	}
+
+	public void setThickness(double thickness) {
+		this.thickness = thickness;
+	}
+
+	public String getColor() {
+		return color;
+	}
+
+	public void setColor(String color) {
+		this.color = color;
+	}
+
+	public String info() {
+		return "ballpointpen thickness: " + this.thickness + ", color: " + this.color;
+	}
+}
